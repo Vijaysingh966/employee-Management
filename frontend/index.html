@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employee </h1>
+        <input type="text" id = "search" placeholder="search By name...">
+        <form action="" id="employeeForm">
+            <input type="text" placeholder="Name" id="name" required>
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="text" placeholder="Phone" id="phone" required>
+            <input type="text" placeholder="Department" id="department" required>
+            <select  id="status">
+                <option value="Active">Active</option>
+                <option value="Inactive">Inactive</option>
+            </select>
+            <button class="" type="submit">Add Employee</button>
+        </form>
+        <ul id="employeeList"></ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
